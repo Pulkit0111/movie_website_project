@@ -1,0 +1,32 @@
+#formContainer {
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin: 5% auto;
+  border: 1px solid black;
+  box-shadow: 15px 10px 10px black;
+  border: 2px solid gold;
+}
+#signUp {
+  display: flex;
+  flex-direction: column;
+}
+#signUp > input {
+  margin: 5% auto;
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5%;
+}
+#btnSignUp {
+  width: 60%;
+  height: 40px;
+  margin: 0% auto 5%;
+  background-color: rgba(0, 100, 0, 0.5);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #338637;
+  border-radius: 10px;
+}

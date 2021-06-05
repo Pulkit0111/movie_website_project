@@ -10,9 +10,9 @@ function login(e) {
         }
     }
     if (isPresent) {
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     } else {
-        alert("Wrong Credentials");
+        alert("Wrong Credentials, Please enter registered E-mail ID");
     }
 }
 function target() {

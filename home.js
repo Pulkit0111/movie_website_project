@@ -91,7 +91,7 @@ function showMovies(data) {
         let p_release = document.createElement('p');
         p_release.innerHTML = `Release: ${data[i].release}`;
         let p_rating = document.createElement('p');
-        p_rating.innerHTML = `IMDP: ${data[i].rating}`;
+        p_rating.innerHTML = `IMDB: ${data[i].rating}`;
         let p_img = document.createElement('img');
         p_img.src = data[i].poster;
         mo_div.append(p_name, p_release, p_rating, p_img);

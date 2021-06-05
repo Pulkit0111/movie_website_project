@@ -12,6 +12,11 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
   border: 2px solid gold;
 }
+#navbar > h1 {
+  color: #338637;
+  margin-right: 43%;
+  font-family: cursive;
+}
 #navbar > button {
   height: 40%;
   margin: 0% 3%;

@@ -23,6 +23,7 @@ function add_user(e) {
         arr.push(users);
         localStorage.setItem('members', JSON.stringify(arr));
     }
+    window.location.href = "signup.html";
 }
 function target() {
     let home_btn = document.getElementById('home');

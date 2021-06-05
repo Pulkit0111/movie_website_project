@@ -63,6 +63,10 @@ body {
   margin-bottom: 10%;
   border: 4px solid #338637;
   border-radius: 20px;
+  transition: transform 0.2s;
+}
+#movParent > div > img:hover {
+  transform: scale(1.3);
 }
 #btnParent {
   display: flex;
@@ -79,6 +83,7 @@ body {
   border: 1px solid #338637;
   background-color: rgba(0, 100, 0, 0.5);
   border-radius: 5px;
+  margin: 2%;
 }
 #btnParent > div > button {
   color: white;
